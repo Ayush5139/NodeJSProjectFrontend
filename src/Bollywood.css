@@ -1,0 +1,85 @@
+
+.bomain3{
+    display: flex;
+}
+
+.bolmain{
+    display:flex ;
+}
+
+.bolmain1{
+    margin-right: 5%;
+}
+
+.boname{
+    font-weight: bold;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.boimage{
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.bodes{
+    font-weight: lighter;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.boyear{
+    font-weight: bold;
+    font-size: 10px;
+    align-items: flex-end;
+    padding: 5px;
+}
+
+.bolad{
+    border: 1px solid black;
+    height: 700px;
+    width: 300px;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:320px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    .bomain3{
+        display: block;
+        width: 100%;
+    }
+
+    .boimage{
+        width: 120px;
+        height: 100px;
+    }
+
+    .boname{
+        font-size: 10px;
+        
+    }
+
+    .bodes{
+        display: none;
+    }
+
+    .boyear{
+        padding-top: 20px;
+    }
+
+    .bolmain{
+        width: 260px;
+    }
+
+    .bolad{
+        display: none;
+    }
+}

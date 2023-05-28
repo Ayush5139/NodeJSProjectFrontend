@@ -16,20 +16,20 @@ function TheLatest() {
         <div className='childdiv'>
             <img src={newdata[0].Image} className='childimg' height='215px'/> 
         
-            <Link to = {`/Blog/${newdata[0].cat}/${newdata[0].id}`} state={`${newdata[0].id}`} > <p className='titlelat'>{newdata[0].Name}</p></Link>
+            <Link to = {`/Blog/${newdata[0].cat}/${newdata[0].id}`} state={`${newdata[0].id}`} className='linktt' > <p className='titlelat'>{newdata[0].Name}</p></Link>
             <p className='deslat'>{newdata[0].Des}</p>
             <p className='latdate'>{newdata[0].cat} / {newdata[0].Date}</p>
 
         </div>
         <div className='childdiv'>
             <img src={newdata[1].Image} className = 'childimg'/>
-            <Link to = {`/Blog/${newdata[1].cat}/${newdata[1].id}`} state={`${newdata[1].id}`} > <p className='titlelat'>{newdata[1].Name}</p></Link>
+            <Link to = {`/Blog/${newdata[1].cat}/${newdata[1].id}`} state={`${newdata[1].id}`} className='linktt'> <p className='titlelat'>{newdata[1].Name}</p></Link>
             <p className='deslat'>{newdata[1].Des}</p>
             <p className='latdate'>{newdata[1].cat} / {newdata[1].Date}</p>
         </div>
         <div className='childdiv'>
             <img src={newdata[2].Image} className = 'childimg'/>
-            <Link to = {`/Blog/${newdata[0].cat}/${newdata[2].id}`} state={`${newdata[2].id}`} > <p className='titlelat'>{newdata[2].Name}</p></Link>
+            <Link to = {`/Blog/${newdata[0].cat}/${newdata[2].id}`} state={`${newdata[2].id}`} className='linktt' > <p className='titlelat' >{newdata[2].Name}</p></Link>
             <p className='deslat'>{newdata[2].Des}</p>
             <p className='latdate'>{newdata[2].cat} / {newdata[2].Date}</p>
         </div>

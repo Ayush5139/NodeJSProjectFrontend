@@ -1,5 +1,6 @@
 import axios from 'axios';
 import React, { useContext, useEffect, useState } from 'react'
+import { FaArrowAltCircleDown, FaArrowDown, FaArrowUp } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { Datac } from './ContextAPI'
 import './Home.css';
@@ -73,7 +74,7 @@ function Latest() {
               )))
             }
           </div>
-          {(show?<button onClick={()=>setShow(false)}>Show Less</button>:<button onClick={()=>setShow(true)}>Show More</button>)}
+          {(show?<button onClick={()=>setShow(false)} className = "btn1"> <FaArrowUp/> Show Less</button>:<button onClick={()=>setShow(true)} className = "btn1"><FaArrowDown/> Show More</button>)}
           <div className='neydeiv'>
             <img src={latdata[0].Image} width = '850px' height='450px' className='newdivimg'/>
             <div className='neydeiv1'>

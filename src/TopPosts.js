@@ -17,7 +17,7 @@ function TopPosts() {
   return (
     <div><h1 className='toph1'>Top Posts</h1>
       <div>
-        <div>
+        <div className='topost111'>
           <img src={NewData[0].Image} width = '300px' className='topimg'/>
           <Link to = {`/Blog/${NewData[0].cat}/${NewData[0].id}`} state={`${NewData[0].id}`} className='linktt' ><p className='mainname'>{NewData[0].Name}</p></Link>
           <p className='topyr1'>{NewData[0].cat} / {NewData[0].Year}</p>

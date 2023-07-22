@@ -266,57 +266,72 @@ body{
 }
 
 
-
-@media screen and (max-width:320px) {
-    *{
+@media screen and (max-width:480px) {
+    * {
         margin: 0%;
         padding: 0%;
     }
 
     a{
-        margin: 5%;
+        margin: 2%;
     }
 
-    .div2{
-        display: block;
-        width: 223%;
-        text-align: center;
+    body{
+        margin: 0;
+        width: 100%;
     }
 
-    .linktt{
-        display: block;
+    .navdiv {
+        width: 100%;
     }
-    .p1{
-        font-size: 24px;
-        margin-left: 30%;
-    }
-    .s1{
-        font-size: 15px;
-    }
-    .homediv2{
-        display: none;
-    }
-    .homediv3{
-        display: none;
-    }
-    .hidebut{
-        display: block;
-        margin-top: 3%;
-        margin-right: 15%;
-        position: relative;
-        left: 100%;
-        top: 8%;
-    }
-    .navdiv{
+
+    .linkdiv {
         display: flex;
+        width: 85%;
+        position: static;
+        justify-content: space-between;
         align-items: center;
     }
 
-    .latestmain{
+    .div2 {
         display: block;
+        width:100%;
+        text-align: center;
     }
-    .homediv1{
+
+    .p1 {
+        font-size: 24px;
+        margin-left: 30%;
+    }
+
+    .s1 {
+        font-size: 15px;
+    }
+
+    .homediv2 {
+        display: none;
+    }
+
+    .homediv3 {
+        display: none;
+    }
+
+    .hidebut {
+        position: static;
+        display: block;
+        margin-top: 6%;
+        width: 0px;
+        font-size: 25px;
+    }
+
+    .latestmain {
+        display: block;
         width: 100%;
+    }
+
+    .homediv1 {
+        width: 95%;
+        margin-left: 2.5%;
         background-size: cover;
         background-repeat: no-repeat;
         height: 250px;
@@ -324,103 +339,151 @@ body{
         margin-bottom: 5%;
     }
 
-    .title{
-        font-size: 25px;  
-        margin-left: 2%; 
+    .toph1{
+        margin-left: 2.5%;
+        padding: 0%;
     }
 
-    .sub{
+    .neydeiv1 {
+        margin-top: 0%;
+        position: absolute;
+        top: 24%;
+        left: 7%;
+        width: 80%;
+    }
+
+    .title {
+        font-size: 25px;
+        margin-left: 2%;
+    }
+
+    .sub {
         font-size: 15px;
         margin-left: 2%;
     }
 
-    .linkh2{
+    .linkh2 {
         display: none;
     }
 
-    .linkh1{
+    .linkh1 {
         display: block;
     }
 
-    .childimg{
-        width: 200px;
-        height: 120px;
+    .childimg {
+        width: 95%;
+        margin-left: 2.5%;
+        height: 200px;
     }
 
-    .childdiv{
+    .titlelat {
+        margin-left: 2.5%;
+    }
+
+    .deslat {
+        margin-left: 2.5%;
+    }
+
+    .latdate {
+        margin-left: 2.5%;
+    }
+
+    .childdiv {
         width: 100%;
         margin-top: 5%;
         margin-bottom: 5%;
     }
 
-    .mainnnnn{
+    .mainnnnn {
         display: block;
-    }
-    .latmain1{
-        margin-top: 5%;
-        margin-bottom: 5%; 
         width: 100%;
-    
     }
 
-    .latimage{
+    .latmain1 {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 100%;
+        margin-left: 2.5%;
+    }
+
+    .latimage {
         width: 100px;
         height: 100px;
     }
 
-    .mainlatname{
+    .mainlatname {
         font-size: 15px;
         padding-left: 10px;
         padding-bottom: 10px;
     }
 
-    .linkdiv{
-        display: flex;
-        width: 100%;
-        position: relative;
-        left: -13%;
-    }
-
-    .mainlatsub{
+    .mainlatsub {
         display: none;
     }
 
-    .mainlatyear{
+    .mainlatyear {
         padding-left: 10px;
         padding-top: 10px;
     }
 
-    .newdivimg{
+    .newdivimg {
         width: 250px;
         height: 150px;
     }
-    .latdataname{
+
+    .latdataname {
         font-size: 15px;
         position: relative;
         left: 5%;
         padding: 0%;
+        color: black;
     }
-    .latdatasub{
+
+    .latdatasub {
         font-size: 10px;
+        padding: 0%;
+        color: black;
+        margin: 0%;
+    }
+
+    .latmain2 {
+        display: none;
+    }
+
+    .topimg {
+        width: 98%;
+    }
+
+    .linktt {
+        margin: 0%;
         padding: 0%;
     }
 
-    .latmain2{
-        display: none;
+    .topyr1 {
+        padding-left: 0px;
     }
 
-    .topimg{
-        width: 250px;
-    }
-
-    .mainname{
+    .mainname {
         font-size: 15px;
     }
-    .div3{
+
+    .div3 {
         display: none;
     }
-    .linktt:hover{
-        color: red;
-    }    
-}
 
+    .neydeiv {
+        margin-top: 2%;
+        width: 95%;
+        margin-left: 2.5%;
+        position: relative;
+    }
+
+    .newdivimg {
+        width: 100%;
+        height: 200px;
+    }
+
+    .linktt img {
+        width: 100%;
+    }
+}

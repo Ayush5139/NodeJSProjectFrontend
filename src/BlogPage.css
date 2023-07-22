@@ -189,69 +189,119 @@ body{
     left: 19%;
 }
 
-@media screen and (max-width:320px){
-    *{
+@media screen and (max-width:480px) {
+    * {
         margin: 0%;
         padding: 0%;
     }
 
-    .p12{
+    body{
+        margin: 0%;
+    }
+
+    a {
+        display: block;
+    }
+
+    .autdiv {
+        display: block;
+    }
+
+    .plike{
+        width: 100%;
+    }
+
+    .blogdiv1 {
+        width: 100%;
+    }
+
+    .margin {
+        margin-left: 0%;
+    }
+
+    .blogdiv2 {
+        background-color: #FAFAFA;
+        width: 100%;
+        margin-top: 2.5%;
+    }
+
+    .p12 {
         font-size: 20px;
     }
 
-    .s12{
+    .s12 {
         font-size: 15px;
     }
 
-    .blogh1{
-        margin-left: 15%;
+    .blogh1 {
+        margin-left: 10%;
         font-size: 25px;
-        width: 115%;
+        width: 90%;
     }
 
-    .autdiv1{
-        position: relative;
-        top: -2%;
-        left: 6%;
+    .moredes {
+        padding: 0px;
+        margin-top: 2%;
     }
 
-    .bogp11{
-        margin-top: 8%;
+    .autdiv1 {
+        position: static;
+        margin-left: 10%;
+        align-items: center;
     }
-    .datdiv{
-        position: relative;
+
+    .bogp11 {
+        margin-top: 0%;
+        margin-bottom: 20px;
+    }
+
+    .datdiv {
+        position: static;
         top: 28%;
         right: 30%;
         font-size: 15px;
+        margin-bottom: 20px;
     }
 
-    .image{
-        margin-left: 10%;
-        width: 270px;
+    .image {
+        margin-left: 2.5%;
+        width: 95%;
     }
 
-    .pblog{
-        width: 102%;
-        margin-left: 11%;
+    .pblog {
+        width: 95%;
+        margin-left: 2.5%;
     }
-    .image2{
-        width: 250px;
-        margin-left: 10%;
+
+    .image2 {
+        width: 50%;
+        margin-left: 22%;
         margin-top: 2%;
         height: 500px;
     }
+
     .likediv {
-        margin-left: 10%;
+        margin-left: 22%;
         font-size: 12px;
+        width: 50%;
     }
 
     .autdiv2 {
-        margin-left: 6%;
+        margin-left: 22%;
         display: flex;
-        position: relative;
-        top: -25%;
-        left: -1%;
+        position: static;
+        width: 78%;
     }
+
+    .autdiv2 img{
+        width: 30%;
+        margin-top: 2%;
+    }
+
+    .datdiv1{
+        width: 70%;
+    }
+
     .bogp1 {
         padding: 5px;
         margin-top: 5%;
@@ -259,36 +309,44 @@ body{
 
     .blogdate {
         padding: 5px;
-        margin-top: -5%;
+        margin-left: 0%;
+        margin-top: 0%;
     }
 
-    .test1{
+    .test1 {
         display: block;
     }
+
     .morename {
         font-weight: bold;
         font-size: 17px;
-        width: 105%;
+        width: 100%;
+        padding: 0%;
+        margin-top: 2.5%;
     }
-    .newdiv{
+
+    .newdiv {
         margin-left: 2.5%;
+        width: 95%;
     }
 
-    .testp{
-        display: flex;
-        align-items: flex-end;
+    .testp {
+        margin-top: 5%;
     }
 
-    .moresiren{
+    .moresiren {
         font-size: 25px;
         padding: 5px;
     }
-    .related{
+
+    .related {
         font-size: 18px;
         padding: 5px;
     }
-    .blogdate{
-        margin-left: 14%;
-        margin-top: 26%;
+
+    .newdiv>img{
+        width: 80%;
+        margin-left: 10%;
     }
+
 }
